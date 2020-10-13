@@ -6,17 +6,17 @@ import test111.PC;
 
 public class Test {
 	public static void main(String[] args) {
-		CPU cpu = new CPU(2200,"ÏşÁú");
+		CPU cpu = new CPU(2200,"ÃÃ¾ÃÃº");
 //		cpu.setSpeed(2200);
-//		cpu.setpingpai("ÏşÁú");
+//		cpu.setpingpai("ÃÃ¾ÃÃº");
 		
 		
-		HardDisk disk = new HardDisk(200,"¹ÌÌ¬");
+		HardDisk disk = new HardDisk(200,"Â¹ÃŒÃŒÂ¬");
 //		disk.amount = 200;
-		PC pc = new PC(cpu,disk);
+		PC pc = new PC();
 //		pc.setpingpai(pingpai);
-//		pc.setCpu(cpu);
-//		pc.setHardDisk(disk);
+		pc.setCpu(cpu);
+		pc.setHardDisk(disk);
     	pc.show();
 // 
 	}
