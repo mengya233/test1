@@ -46,6 +46,13 @@ public  class PC{
 	}
 	HardDisk disk = new HardDisk(200,"固态");
 PC pc = new PC(cpu,disk);
+——————
+	public CPU(){}
+	
+	public CPU(int speed,String pingpai){
+		this.speed=speed;
+		this.pingpai=pingpai;
+	}
 ```
 ## 三.实验结果
 
