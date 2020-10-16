@@ -46,6 +46,9 @@ public  class PC{
 PC pc = new PC(cpu,disk);
 ```
 三.实验结果
+
+<img src="https://github.com/mengya233/test2/blob/main/shangchuan4.png?raw=true">
+
 CPU的速度是：2200CPU的型号是：晓龙
 硬盘的容量是：200硬盘的类型是:固态
 
