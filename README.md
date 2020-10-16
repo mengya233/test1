@@ -30,7 +30,7 @@
 4. pc调用setCPU(CPU c)方法，调用时实参是cpu
 5. pc调用setHardDisk(HardDisk h)方法，调用时实参是disk
 6. pc调用show()方法。
-# 二.试验方法
+## 二.试验方法
 作业要求利用两个构造方法，所以我使用了一个空的构造方法和一个赋值的构造方法。
 ```Java
 public  class PC{
@@ -45,12 +45,12 @@ public  class PC{
 	HardDisk disk = new HardDisk(200,"固态");
 PC pc = new PC(cpu,disk);
 ```
-三.实验结果
+## 三.实验结果
 
 <img src="https://github.com/mengya233/test2/blob/main/shangchuan4.png?raw=true">
 
 CPU的速度是：2200CPU的型号是：晓龙
 硬盘的容量是：200硬盘的类型是:固态
 
-四.实验感想
+## 四.实验感想
 对构造方法概念模糊，关键词不熟悉，需要补充基础知识，写JAVA基本架构无法脱离教科书。
