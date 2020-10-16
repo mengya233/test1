@@ -47,7 +47,6 @@ public  class PC{
 	HardDisk disk = new HardDisk(200,"固态");
 PC pc = new PC(cpu,disk);
 
-```Java
 	public CPU(){}
 	
 	public CPU(int speed,String pingpai){
