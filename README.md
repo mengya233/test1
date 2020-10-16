@@ -48,7 +48,6 @@ public  class PC{
 PC pc = new PC(cpu,disk);
 
 ```Java
-```Java
 	public CPU(){}
 	
 	public CPU(int speed,String pingpai){
